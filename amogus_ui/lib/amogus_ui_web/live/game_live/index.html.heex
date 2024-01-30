@@ -1,0 +1,21 @@
+<audio id="report-audio">
+  <source src="assets/report.mp3" type="audio/mpeg" />
+</audio>
+<audio id="emergency-audio">
+  <source src="assets/emergency.mp3" type="audio/mpeg" />
+</audio>
+
+<.modal show id="play-confirm">
+  <div class="flex items-center justify-center bg-black rounded-md text-white">
+    <button
+      phx-click={JS.hide(to: "#play-confirm")}
+      class="focus:ring-0 focus:ring-offset-0 focus-visible:outline-none text-2xl p-4 rounded-md border-4 border-white"
+    >
+      PLAY
+    </button>
+  </div>
+</.modal>
+
+<button phx-click="report">
+  <img src="assets/report-text.webp" />
+</button>

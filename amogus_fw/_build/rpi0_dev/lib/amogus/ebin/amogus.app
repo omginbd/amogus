@@ -1,0 +1,11 @@
+{application,amogus,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,runtime_tools,
+                             amogus_ui,scroll_hat,circuits_gpio,shoehorn,
+                             ring_logger,toolshed,nerves_runtime,nerves_pack]},
+              {description,"amogus"},
+              {modules,['Elixir.Amogus','Elixir.Amogus.Application',
+                        'Elixir.Amogus.Buttons']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Amogus.Application',[]}}]}.

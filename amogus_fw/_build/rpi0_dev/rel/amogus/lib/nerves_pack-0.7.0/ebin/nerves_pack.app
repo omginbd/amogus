@@ -1,0 +1,10 @@
+{application,nerves_pack,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,nerves_ssh,nerves_runtime,
+                             nerves_time,nerves_motd,ring_logger,vintage_net,
+                             vintage_net_direct,vintage_net_ethernet,
+                             vintage_net_wifi,mdns_lite]},
+              {description,"Initialization setup for Nerves devices"},
+              {modules,['Elixir.NervesPack']},
+              {registered,[]},
+              {vsn,"0.7.0"}]}.

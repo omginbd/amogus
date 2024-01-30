@@ -1,0 +1,10 @@
+{application,nerves_motd,
+             [{optional_applications,[nerves_time,nerves_time_zones]},
+              {applications,[kernel,stdlib,elixir,nerves_runtime,nerves_time,
+                             nerves_time_zones]},
+              {description,"Message of the day for Nerves devices"},
+              {modules,['Elixir.NervesMOTD','Elixir.NervesMOTD.Runtime',
+                        'Elixir.NervesMOTD.Runtime.Target',
+                        'Elixir.NervesMOTD.Utils']},
+              {registered,[]},
+              {vsn,"0.1.13"}]}.

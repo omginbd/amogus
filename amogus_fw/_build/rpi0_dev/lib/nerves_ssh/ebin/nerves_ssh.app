@@ -1,0 +1,12 @@
+{application,nerves_ssh,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,public_key,ssh,
+                             ssh_subsystem_fwup,nerves_runtime]},
+              {description,"Manage a SSH daemon and subsystems on Nerves devices"},
+              {modules,['Elixir.NervesSSH','Elixir.NervesSSH.Application',
+                        'Elixir.NervesSSH.Exec','Elixir.NervesSSH.Keys',
+                        'Elixir.NervesSSH.Options','Elixir.NervesSSH.SCP',
+                        'Elixir.NervesSSH.UserPasswords']},
+              {registered,[]},
+              {vsn,"0.4.3"},
+              {mod,{'Elixir.NervesSSH.Application',[]}}]}.

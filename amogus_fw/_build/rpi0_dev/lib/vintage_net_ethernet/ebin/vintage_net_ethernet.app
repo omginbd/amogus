@@ -1,0 +1,10 @@
+{application,vintage_net_ethernet,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,vintage_net]},
+              {description,"Ethernet networking for VintageNet"},
+              {modules,['Elixir.VintageNet.Technology.Ethernet',
+                        'Elixir.VintageNetEthernet',
+                        'Elixir.VintageNetEthernet.Cookbook',
+                        'Elixir.VintageNetEthernet.MacAddress']},
+              {registered,[]},
+              {vsn,"0.11.2"}]}.

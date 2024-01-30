@@ -1,0 +1,12 @@
+{application,one_dhcpd,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,crypto,logger]},
+              {description,"One address DHCP server"},
+              {modules,['Elixir.OneDHCPD','Elixir.OneDHCPD.ARP',
+                        'Elixir.OneDHCPD.ARP.Entry',
+                        'Elixir.OneDHCPD.IPCalculator',
+                        'Elixir.OneDHCPD.Message','Elixir.OneDHCPD.Option',
+                        'Elixir.OneDHCPD.Options','Elixir.OneDHCPD.Server',
+                        'Elixir.OneDHCPD.Utility']},
+              {registered,[]},
+              {vsn,"2.0.2"}]}.
